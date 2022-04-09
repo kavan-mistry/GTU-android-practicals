@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
         ans=(TextView)findViewById(R.id.textView2);
         i=Integer.parseInt(n1.getText().toString());
         j=Integer.parseInt(n2.getText().toString());
-        an=i+j;
+        an = i + j;
         ans.setText(Integer.toString(an));
     }
     public void sub(View e)
