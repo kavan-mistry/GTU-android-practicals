@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">practical 9</string>
+    <string name="play_audio">Play Audio</string>
+    <string name="record_video">Record Video</string>
+    <string name="play_video">Play Video</string>
+    <string name="record_audio">Record Audio</string>
+    <string name="stop_recording_audio">Stop Recording Audio</string>
+    <string name="stop_playing_audio">Stop Playing Audio</string>
+</resources>
