@@ -70,7 +70,7 @@ public class MainActivity extends AppCompatActivity {
         btnRecordAudio.setOnClickListener(v -> {
             if (checkPermission()) {
                 audioSavePathInDevice = Environment.getExternalStorageDirectory().getAbsolutePath() + "/" +
-                                createRandomAudioFileName(5) + "AudioRecording.3gp";
+                                createRandomAudioFileName(5) + "AudioRecording.mp3";
                 makeAudioRecorder();
                 try {
                     audioRecorder.prepare();
@@ -129,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
         audioRecorder = new MediaRecorder();
         audioRecorder.setAudioSource(MediaRecorder.AudioSource.MIC);
         audioRecorder.setOutputFormat(MediaRecorder.OutputFormat.THREE_GPP);
-        audioRecorder.setAudioEncoder(MediaRecorder.OutputFormat.AMR_NB);
+        audioRecorder.setAudioEncoder(MediaRecorder.AudioEncoder.AMR_NB);
         audioRecorder.setOutputFile(audioSavePathInDevice);
     }
     public String createRandomAudioFileName(int string) {

@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/MAD practicals/practical4/app/src/main/res/drawable/ic_launcher_foreground.xml" value="0.1" />
         <entry key="..\:/MAD practicals/practical4/app/src/main/res/layout/activity_main.xml" value="0.17889492753623187" />
+        <entry key="..\:/MAD practicals/practical4/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.181" />
       </map>
     </option>
   </component>
